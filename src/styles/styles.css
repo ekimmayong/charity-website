@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+html, body, html * {
+  font-family: 'Kumbh Sans', sans-serif!important;
+}
+
+.nav-link.active, .nav-link:hover{
+    color: #F86917!important
+}
+
+.home-message {
+    padding-left: 24px;
+    margin-left: 10rem
+}
+
+
+.btn-style-two{
+    border-radius: 2.5rem!important;
+    font-size: 1.3rem!important;
+    padding: 1rem!important;
+    width: 25ch!important;
+    color: #FFFFFF!important;
+}
+
+.btn-style-two:hover{
+    background-color: #F86917!important;
+}
+
+.satisfied-counter{
+    right: 0!important;
+    position: absolute!important;
+    background-color: #F86917!important;
+    width: 200px!important;
+    height: 200px!important;
+    border-radius: 50%!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.donors-container .MuiGrid-item{
+    padding: 1.5rem!important
+}
+
+
+.donors-container .MuiGrid-root .MuiCard-root{
+    border-radius: 20px!important;
+    box-shadow: inset 5px 5px 5px #efefef, 5px 5px 5px #efefef!important;
+}
+
+.donors-container .MuiGrid-root .MuiCard-root img{
+    width: 80px!important;
+    height: 80px!important;
+}
+
+.feature-category {
+    position: relative!important;
+    top: -11px!important;
+    display: inline-block!important;
+    border-radius: 50px!important;
+    font-size: 14px!important;
+    color: #fff!important;
+    padding: 4px 20px!important;
+    margin-top: -5px!important;
+}
+
+.amount-donated{
+    padding: 25px 15px 15px!important;
+    margin-top: 20px!important;
+    background-color: #FDF4ED!important;
+}
+
+.amount-donated p{
+    font-size: 12px!important;
+}
+
+/* Horizontal Slider */
+.horizontal-slider {
+    width: 100%;
+    max-width: 500px;
+    height: 20px;
+  }
+  
+  .example-thumb {
+    font-size: 0.9em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  
+  .example-thumb.active {
+    background-color: grey;
+  }
+  
+  .example-track {
+    position: relative;
+    background: #F86917;
+  }
+  
+  .example-track.example-track-1 {
+    background: #fff;
+  }
+  
+  .example-track.example-track-2 {
+    background: #F86917;
+  }
+  
+  .horizontal-slider .example-track {
+    top: 7px;
+    height: 5px;
+  }
+  
+  .horizontal-slider .example-thumb {
+    top: 0px;
+    width: 30px;
+    height: 20px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.horizontal-slider-round {
+    width: 100%;
+    max-width: 500px;
+    height:15px;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+.example-thumb-round {
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    z-index: 100;
+    background: #F86917;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 44%);
+}
+
+.horizontal-slider-round .example-track-round {
+    top: 6px;
+    height: 4px;
+}
+
+.example-track-round {
+    position: relative;
+    background: #000;
+}
+
+.example-track-round.example-track-round-1 {
+    background: #ddd;
+}
+
+.example-track-round.example-track-round-2 {
+    background: #F86917;
+}
+.thumb-mark{
+    position: absolute;
+    top: -24px;
+    left: -5px;
+    font-size: 12px;
+    color: #FF0000
+}
+
+.button-one {
+    border-radius: 50px!important;
+    padding: 12px 36px!important;
+    font-weight: 700;
+    color: '#000';
+    border: 1px;
+}
+
+.work-together{
+    position: relative!important;
+    display: inline-flex!important;
+    align-items: center!important;
+    justify-content: space-around!important;
+    width: 100%!important;
+    border: 1px solid #ddd!important;
+    padding: 80px 0 80px!important;
+    box-shadow: 5px 5px 5px #ccc!important;
+    border-radius: 20px!important;
+    background-color: #ccc!important;
+}
+
+.work-together-outline{
+    position: absolute!important;
+    top: -15px!important;
+    left: 22px!important;
+    width: 96%!important;
+    height: 280px!important;
+    border: 4px solid #fff!important;
+    border-radius: 20px!important;
+}
+
+@media screen and (max-width: 900px) {
+    .home-message {
+        margin-left: 0;
+        padding: 25px 15px 15px!important;
+    }
+    .home-message h2 {
+        font-size: 3.2rem;
+    }
+
+    .satisfied-counter{
+        width: 120px!important;
+        height: 120px!important;
+    }
+}
+
+@media screen and (max-width: 1070 ) and (min-width: '901px') {
+    .home-message {
+        margin-left: 5
+    }
+    .home-message h2 {
+        font-size: 5rem;
+    }
+}
